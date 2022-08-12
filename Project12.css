@@ -1,0 +1,458 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  gray;
+    font-family: "figtree";
+}
+
+.btn {
+    border: none;
+    font-weight: 600;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-outline {
+    border: 1px solid rgb(104, 202, 104);
+    background-color: transparent;
+}
+.btn-fill {
+    background-color:  rgb(86, 138, 86);
+}
+.btn-lg {
+    padding: 18px 38px;
+    font-size: 16px;
+}
+.container {
+    max-width: 78rem;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 14vh;
+    align-items: center;
+}
+.navbar .logo-container {
+    flex: 2;
+}
+.navbar .logo-container img {
+    width: 110px;
+}
+.navbar .list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex: 2.4;
+    padding-bottom: 30px;
+}
+.navbar .list .list-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar .list .list-item a:hover{
+    text-decoration: none;
+    color: #b68585;
+}
+.navbar div:last-child {
+    margin-bottom: 30px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    height: 85vh;
+    padding-bottom: 20px;
+}
+.hero-left .hero-image {
+    width: 28rem;
+    height: 580px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.hero-left .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero .hero-right h1 {
+    font-family: "Figtree";
+    font-size: 4.4rem;
+    color: #cccccc;
+    line-height: 75px;
+}
+.hero .hero-right p {
+    color: #cccccc;
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+.hero .hero-right .contact-email {
+    position: relative;
+}
+.hero .hero-right .contact-email input[type="email"] {
+    padding: 28px 190px 28px 20px;
+    width: 23rem;
+    outline: none;
+}
+.hero .hero-right .contact-email input[type="email"]::placeholder {
+   
+    font-size: 16px;
+    color: darkgray;
+}
+.hero .hero-right .contact-email button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+
+.connecting-wrapper {
+    background-color:  #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.connecting {
+    max-width: 78rem;
+    margin: 110px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.connecting h2 {
+    font-family: "Figtree";
+    font-size: 2.6rem;
+    text-align: center;
+    color: darkgray;
+    padding-bottom: 60px;
+}
+.connecting .connecting-right .connecting-img {
+    width: 78rem;
+    height: 550px;
+    overflow: hidden;
+}
+.connecting .connecting-right .connecting-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.connecting .connecting-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.connecting .connecting-left .connecting-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+.connecting .connecting-left .connecting-stats .stat h4 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.connecting .connecting-left .connecting-stats .stat p {
+    font-weight: 600;
+    color: darkgray;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-size: 17px;
+}
+
+
+
+.webdesign-wrapper {
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top:  70px;    
+    
+}
+.webdesign-wrapper h2 {
+    font-family: "Figtree";
+    font-size: 2.9rem;
+    text-align: center;
+    color: darkgray;
+    padding-bottom: 90px;
+    font-weight: 900;
+}
+
+.web-design-height{
+    height: 270vh;
+}
+
+.webdesign {
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+    margin-left: 6%;
+    margin-right: 8%;
+    margin-bottom: 120px;
+    align-items: center;
+}
+.webdesign .webdesign-left h4 {
+    font-size: 3.5rem;
+    color: darkgray;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-family: "Figtree";
+}
+.webdesign .webdesign-left p {
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+
+.webdesign-right .webdesign-img {
+    width: 340px;
+    height: 650px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.webdesign-right .webdesign-img img {
+    width: 336px;
+    height: 499px;
+    object-fit: cover;
+    object-position: right;
+
+}
+
+
+.marketing-wrapper {
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 350vh;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    
+}
+.marketing {
+    max-width: 78rem;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+.marketing .marketing-left {
+    order: 2;
+}
+.marketing .marketing-left h4 {
+    font-size: 2.5rem;
+    color: darkgray;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: "Figtree";
+}
+.marketing .marketing-left p {
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.marketing-right {
+    order: 1;
+}
+.marketing-right .marketing-img {
+    width: 34rem;
+    height: 500px;
+    overflow: hidden;
+}
+.marketing-right .marketing-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.judging {
+    max-width: 78rem;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.judging .judging-left h4 {
+    font-size: 2.5rem;
+    color: darkgray;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: "Figtree";
+}
+.judging .judging-left p {
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.judging-right .judging-img {
+    width: 34rem;
+    height: 500px;
+    overflow: hidden;
+}
+
+.judging-right .judging-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-section {
+    max-width: 78rem;
+    margin: 40px auto 40px auto;
+    padding-top: 120px;
+}
+.team-section .team-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-section .team-headline h1 {
+    font-size: 2.8rem;
+    font-family: "Figtree";
+    color: darkgray;
+}
+.team-section .team-headline p {
+    font-size: 1.2rem;
+    color: darkgray;
+    line-height: 30px;
+    font-weight: 500;
+}
+.tema-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.tema-info .team-card .team-image {
+    width: 350px;
+    height: 440px;
+    overflow: hidden;
+}
+.tema-info .team-card .team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.tema-info .team-card h4 {
+    font-size: 1.2rem;
+    color:  darkgrey;
+    padding: 15px 0px;
+}
+.tema-info .team-card p {
+    color:  gray;
+}
+.team-section .team-btn {
+    text-align: center;
+    padding-top: 50px;
+}
+.team-section .team-btn button {
+    padding: 20px 60px;
+}
+
+
+
+.footer-wraper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color:  darkslategray;
+    top: 652vh;
+}
+.footer-wraper .footer {
+    max-width: 78rem;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.footer-wraper .footer .footer-logo {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: center;
+}
+.footer-wraper .footer .footer-logo ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.footer-wraper .footer .footer-logo ul li span {
+    background-color: rgba(255, 255, 255, 0.093);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 500px;
+}
+
+.footer-wraper .footer .footer-logo ul li span:hover {
+    background-color: rgba(255, 0, 106, 0.093);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 500px;
+}
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.footer-navbar .navbar-list h4 {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    
+    font-weight: normal;
+}
+.footer-navbar .navbar-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    color:  gray;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-navbar .navbar-list ul li {
+    cursor: pointer;
+}
+
+.footer-navbar .navbar-list ul li:hover {
+    cursor: pointer;
+    color: #fff;
+}
+.footer .hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.093);
+    width: 100%;
+    display: block;
+}
